@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+}
+
+.canvas {
+  display: block;
+
+  border: 2px solid #000;
+  margin: 50px auto;
+}
+
+.btn {
+  padding: 10px;
+  font-size: 18px;
+  background: grey;
+}
+.red{
+  background: red;
+}
+.blue{
+  background: blue;
+}
+.yellow{
+  background: yellow;
+}
+.green{
+  background: green;
+}
+.white{
+  background: #fff;
+}
+.black{
+  background: #000;
+  color: #fff;
+}

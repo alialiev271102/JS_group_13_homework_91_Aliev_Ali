@@ -1,0 +1,17 @@
+<div class="container">
+  <div>
+    <select  class="btn" (click)="onClick($event)">
+      <option value="red" class="red">Red</option>
+      <option value="blue" class="blue">Blue</option>
+      <option value="yellow" class="yellow">Yellow</option>
+      <option value="green" class="green">Green</option>
+      <option value="white" class="white">White</option>
+      <option value="black" class="black">Black</option>
+    </select>
+    <button (click)="clearCanvas()" style=" margin-left: 10px" class="btn">Clear Canvas</button>
+  </div>
+  <canvas class="canvas" #canvas (click)="clickOnCanvas($event)" width="500px" height="500px">
+
+  </canvas>
+</div>
+
